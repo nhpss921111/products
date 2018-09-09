@@ -7,3 +7,6 @@ while True:
     p = [name, price] # 小清單裡存 name 和 price
     products.append(p) # 把小清單(p)存進大清單(products)
 print(products)
+
+for p in products:
+    print(p[0], '的價格是', p[1])
