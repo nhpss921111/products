@@ -23,8 +23,3 @@ with open('products.csv', 'w', encoding='utf-8') as f:
     for p in products:
         f.write(p[0] + ',' + str(p[1]) + '\n') # csv檔用'，'區隔
 
-#data = [1, 3, 5, 7, 9] # 清單中裝著一些整數
-# 請開始寫"寫入檔案"的程式碼
-#with open('test.txt', 'w') as f:
-#    for d in data:
-#        f.write(d)
